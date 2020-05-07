@@ -1,0 +1,16 @@
+title: İnstagram fakes
+description: Instagram's html and css codes
+template:
+  repo: instagram-fakes-template
+  name: instagram-fakes
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
